@@ -1,0 +1,13 @@
+class Solution:
+    def returnToBoundaryCount(self, nums: List[int]) -> int:
+        val=0
+        c=0
+        for i in nums:
+            val=val+i
+            if val==0:
+                c+=1
+        return(c)  
+        
+       
+
+            
